@@ -1,10 +1,14 @@
 package com.codecool.ants.game;
 
+import com.codecool.ants.geometry.Position;
+
 public class Queen extends Ant {
 
     private static Queen QUEEN;
 
+
     private Queen() {
+
     }
 
     public static Queen getQueen(){
@@ -15,7 +19,7 @@ public class Queen extends Ant {
     }
 
     @Override
-    public void onUpdate() {
+    public void move() {
 
     }
 }

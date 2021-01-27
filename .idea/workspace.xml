@@ -6,7 +6,21 @@
   <component name="ChangeListManager">
     <list default="true" id="ef8ef2c7-ff07-4dcc-b5e8-7172b3e004c6" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/codecool/ants/game/Ants.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/codecool/ants/game/Ant.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/codecool/ants/Simulator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/codecool/ants/Simulator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/codecool/ants/game/Ant.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/codecool/ants/game/Ant.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/codecool/ants/game/Colony.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/codecool/ants/game/Colony.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/codecool/ants/game/Drone.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/codecool/ants/game/Drone.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/codecool/ants/game/Queen.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/codecool/ants/game/Queen.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/codecool/ants/game/Soldier.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/codecool/ants/game/Soldier.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/codecool/ants/game/Worker.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/codecool/ants/game/Worker.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/codecool/ants/geometry/Position.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/codecool/ants/geometry/Position.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ants-1.0.jar" beforeDir="false" afterPath="$PROJECT_DIR$/target/ants-1.0.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/codecool/ants/Simulator.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/codecool/ants/Simulator.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/codecool/ants/geometry/Direction.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/codecool/ants/geometry/Direction.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/codecool/ants/geometry/Position.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/codecool/ants/geometry/Position.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-archiver/pom.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -97,5 +111,16 @@
     <ignored-roots>
       <path value="$PROJECT_DIR$/../../../.." />
     </ignored-roots>
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/codecool/ants/Simulator.java</url>
+          <line>10</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>

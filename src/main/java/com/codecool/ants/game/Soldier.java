@@ -1,8 +1,25 @@
 package com.codecool.ants.game;
 
-public class Soldier extends Ant {
-    @Override
-    public void onUpdate() {
+import com.codecool.ants.geometry.Position;
 
+public class Soldier extends Ant {
+
+    private Position position;
+
+    public Soldier(Position position) {
+        this.position = position;
+    }
+
+    @Override
+    public void move() {
+
+    }
+
+    public Position getPosition() {
+        return position;
+    }
+
+    public void setPosition(Position position) {
+        this.position = position;
     }
 }

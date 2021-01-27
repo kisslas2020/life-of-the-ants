@@ -1,6 +1,10 @@
 package com.codecool.ants.game;
 
+import com.codecool.ants.geometry.Position;
+
 public abstract class Ant {
 
-    public abstract void onUpdate();
+    private Position position;
+
+    public abstract void move();
 }
