@@ -10,12 +10,14 @@ public class Colony {
 
     private final int width;
     private final Position[][] colony;
+    private List<Ant> antsOfColony = new ArrayList<>();
+    private final int[] coordinatesOfQueen = new int[2];
 
     public Colony(int width) {
         this.width = width;
         colony = generateColony();
-        colony[width/2][width/2].setAnt(Queen.getQueen());
-
+        colony[coordinatesOfQueen[0]][coordinatesOfQueen[1]].setAnt(Queen.getQueen());
+        antsOfColony.add(Queen.getQueen());
     }
 
     private Position[][] generateColony() {
@@ -25,6 +27,8 @@ public class Colony {
                 temp[i][j] = new Position(i, j);
             }
         }
+        coordinatesOfQueen[0] = width / 2;
+        coordinatesOfQueen[1] = width / 2;
         return temp;
     }
 
@@ -36,7 +40,8 @@ public class Colony {
                 x = random.nextInt(width);
                 y = random.nextInt(width);
             } while(colony[x][y].getAnt() != null);
-            colony[x][y].setAnt(new Drone(colony[x][y]));
+            colony[x][y].setAnt(new Drone(colony[x][y], this));
+            antsOfColony.add(colony[x][y].getAnt());
         }
         for (int i = 0; i < workers; i++) {
             int x, y;
@@ -44,7 +49,8 @@ public class Colony {
                 x = random.nextInt(width);
                 y = random.nextInt(width);
             } while(colony[x][y].getAnt() != null);
-            colony[x][y].setAnt(new Worker(colony[x][y]));
+            colony[x][y].setAnt(new Worker(colony[x][y], this));
+            antsOfColony.add(colony[x][y].getAnt());
         }
         for (int i = 0; i < soldiers; i++) {
             int x, y;
@@ -52,12 +58,23 @@ public class Colony {
                 x = random.nextInt(width);
                 y = random.nextInt(width);
             } while(colony[x][y].getAnt() != null);
-            colony[x][y].setAnt(new Soldier(colony[x][y]));
+            colony[x][y].setAnt(new Soldier(colony[x][y], this));
+            antsOfColony.add(colony[x][y].getAnt());
         }
     }
 
     public void update(){
 
+    }
+
+    public boolean isValidMovement(int x, int y) {
+        if (x < 0 || y < 0 || x == width || y == width){
+            return false;
+        }
+        if (colony[x][y].getAnt() != null) {
+            return false;
+        }
+        return true;
     }
 
     public int getWidth() {
@@ -66,5 +83,13 @@ public class Colony {
 
     public Position getPosition(int x, int y) {
         return colony[x][y];
+    }
+
+    public int[] getCoordinatesOfQueen(){
+        return coordinatesOfQueen;
+    }
+
+    public List<Ant> getAntsOfColony() {
+        return List.copyOf(antsOfColony);
     }
 }

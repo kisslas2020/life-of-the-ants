@@ -14,18 +14,29 @@ public class Simulator {
 
     public static void main(String[] args) {
         System.out.println("You can use `mvn package; java -jar target/ants-1.0.jar` to run this app from the console");
-        colony = new Colony(20);
-        colony.generateAnts(10,10,10);
-        update();
-
+        colony = new Colony(10);
+        colony.generateAnts(2,2,2);
+        try {
+            update();
+        } catch (InterruptedException e) {
+            System.exit(0);
+        }
 
 
     }
 
 
 
-    public static void update() {
-        display();
+    public static void update() throws InterruptedException {
+        while(true) {
+            //display();
+            //System.out.println("-----------------------------------------------------------------------------------");
+            //Thread.sleep(2000);
+            colony.getAntsOfColony().stream().forEach(x -> x.move());
+            
+        }
+
+
     }
 
     public static void display(){

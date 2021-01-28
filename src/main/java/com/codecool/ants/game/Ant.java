@@ -7,4 +7,5 @@ public abstract class Ant {
     private Position position;
 
     public abstract void move();
+
 }
