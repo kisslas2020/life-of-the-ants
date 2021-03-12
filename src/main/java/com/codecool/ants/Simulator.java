@@ -2,6 +2,8 @@ package com.codecool.ants;
 
 import com.codecool.ants.game.*;
 
+import java.util.Scanner;
+
 
 public class Simulator {
 
@@ -29,11 +31,19 @@ public class Simulator {
 
     public static void update() throws InterruptedException {
         while(true) {
-            //display();
-            //System.out.println("-----------------------------------------------------------------------------------");
-            //Thread.sleep(2000);
+            display();
+            System.out.println("-----------------------------------------------------------------------------------");
+            Thread.sleep(2000);
             colony.getAntsOfColony().stream().forEach(x -> x.move());
-            
+            /*Scanner scanner = new Scanner(System.in);
+            if(scanner.nextLine().isEmpty()) {
+                display();
+            }
+            if(scanner.nextLine().equals("q")){
+                if(scanner.nextLine().isEmpty()) {
+                    System.exit(0);
+                }
+            }*/
         }
 
 

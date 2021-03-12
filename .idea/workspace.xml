@@ -7,20 +7,7 @@
     <list default="true" id="ef8ef2c7-ff07-4dcc-b5e8-7172b3e004c6" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/codecool/ants/Simulator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/codecool/ants/Simulator.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/codecool/ants/game/Ant.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/codecool/ants/game/Ant.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/codecool/ants/game/Colony.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/codecool/ants/game/Colony.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/codecool/ants/game/Drone.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/codecool/ants/game/Drone.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/codecool/ants/game/Queen.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/codecool/ants/game/Queen.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/codecool/ants/game/Soldier.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/codecool/ants/game/Soldier.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/codecool/ants/game/Worker.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/codecool/ants/game/Worker.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/codecool/ants/geometry/Direction.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/codecool/ants/geometry/Direction.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/com/codecool/ants/Simulator.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/codecool/ants/Simulator.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/codecool/ants/game/Colony.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/codecool/ants/game/Colony.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/codecool/ants/game/Drone.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/codecool/ants/game/Drone.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/codecool/ants/game/Queen.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/codecool/ants/game/Queen.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/codecool/ants/game/Soldier.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/codecool/ants/game/Soldier.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/codecool/ants/game/Worker.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/codecool/ants/game/Worker.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/codecool/ants/geometry/Direction.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/codecool/ants/geometry/Direction.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -119,16 +106,6 @@
           <url>file://$PROJECT_DIR$/src/main/java/com/codecool/ants/game/Drone.java</url>
           <line>76</line>
           <option name="timeStamp" value="13" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/com/codecool/ants/game/Drone.java</url>
-          <line>19</line>
-          <option name="timeStamp" value="14" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/com/codecool/ants/game/Soldier.java</url>
-          <line>21</line>
-          <option name="timeStamp" value="15" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
