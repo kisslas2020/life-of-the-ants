@@ -1,5 +1,13 @@
 package com.codecool.ants.geometry;
 
-    public enum Direction {
+import java.util.ArrayList;
+import java.util.Arrays;
+import java.util.List;
+
+public enum Direction {
         NORTH, EAST, SOUTH, WEST;
+
+
+
+
     }
